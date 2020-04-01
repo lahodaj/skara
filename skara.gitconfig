@@ -32,3 +32,4 @@
         info = ! git skara info
         translate = ! git skara translate
         sync = ! git skara sync
+        jackpot = ! git skara jackpot

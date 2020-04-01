@@ -171,6 +171,7 @@ public class GitSkara {
         commands.put("translate", GitTranslate::main);
         commands.put("sync", GitSync::main);
         commands.put("publish", GitPublish::main);
+        commands.put("jackpot", GitJackpot::main);
 
         commands.put("update", GitSkara::update);
         commands.put("help", GitSkara::usage);

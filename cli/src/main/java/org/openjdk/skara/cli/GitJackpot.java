@@ -197,6 +197,7 @@ public class GitJackpot {
                           .filter(p -> p.getNameCount() > 1)
                           .filter(p -> "src".equals(p.getName(0).toString()))
                           .map(p -> p.getName(1).toString())
+                          .distinct()
                           .collect(Collectors.joining(" "));
 
         var patchFile = Files.createTempFile("patch", ".patch");
